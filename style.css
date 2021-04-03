@@ -1,0 +1,44 @@
+
+.navbar .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none !important
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-link {
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    text-decoration: none !important    
+}
+
+  button:focus {
+    outline: none !important
+  }
+
+
+  /*Images size gallery*/
+.imgsize {
+    width: 480px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: grey;
+}
