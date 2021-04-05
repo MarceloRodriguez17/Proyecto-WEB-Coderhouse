@@ -1,6 +1,7 @@
-.navbar .nav-item .nav-link {
-    color: black;
-    font-size: 18px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -10,6 +11,13 @@ a {
 
 ul {
     list-style: none;
+}
+
+
+/*Navbar & Language options*/
+.navbar .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
 }
 
 .btn-link {
@@ -30,6 +38,12 @@ ul {
     height: 350px;
 }
 
+.imgsize2 {
+    width: 300px;
+    height: 300px;
+}
+
+
 h1 {
     font-size: 24px;
 }
@@ -37,11 +51,16 @@ h2 {
     font-size: 20px;
 }
 
-.imgsize2 {
-    width: 300px;
-    height: 300px;
+/*Pages Sections*/
+
+
+.servicios {
+    margin-top: 60px;
 }
 
+.galeria {
+    margin-top: 60px;
+}
 
 footer {
     margin-top: 60px;
