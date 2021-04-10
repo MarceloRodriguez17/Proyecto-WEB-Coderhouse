@@ -34,8 +34,8 @@ ul {
 
   /*Images size gallery*/
 .imgsize {
-    width: 480px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 .imgsize2 {
@@ -65,4 +65,10 @@ h2 {
 footer {
     margin-top: 60px;
     
+}
+
+
+.background {
+    background: url(img/background.jpg);
+    background-size: 100vw 100vh;
 }
