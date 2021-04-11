@@ -25,7 +25,7 @@
 </head>
 
 
-<body class="container">
+<body>
 <!--Header, lang options & navbar-->
     <header>
         <section id="#inicio">
@@ -42,7 +42,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="/"></a>
-                    <img src="img/logoweb.png" alt="Logo WEB">
+                    <img src="img/logoweb.png" alt="Logo Web" class="logo">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -69,15 +69,13 @@
 
 <!--Footer y contacto-->
 
-<footer>
-
+<div class="container">
   <h3>Contacto</h3>
   <p>Podes contactarnos a través de Whatsapp haciendo click en el siguiente link: <a href="https://whatsapp.com" class="text-dark"><i class="flaticon-whatsapp"></i></a></p>
   <p>O también podes rellenar el siguiente formulario de contacto y nosotros nos comunicaremos a la brevedad posible.</p>
 
 <section class="mb-4">
   <div class="row">
-
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
           <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -139,31 +137,51 @@
           </div>
           <div class="status"></div>
       </div>
-      
+  </div>
+</section>
+</div>
 
+
+
+
+<footer>
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12 md-mb-30 sm-mb-30 segment-one">
+                  <h2>El Luthier</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, culpa.</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 md-mb-30 sm-mb-30 segment-two">
+                  <h2>Redes Sociales</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, culpa.</p>
+                  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-30 segment-three">
+                  <h2>Menu</h2>
+                  <ul>
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="servicios.html">Nuestros Servicios</a></li>
+                      <li><a href="galeria.html">Galeria</a></li>
+                      <li><a href="contacto.html">Contacto</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-30 segment-four">
+                  <h2>Newsletter</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, odio?</p>
+                  <form action=""></form>
+                  <input type="email">
+                  <input type="submit" value="Suscribite">
+              </div>
+          </div>  
+      </div>
   </div>
-  <div class="row">
-    <div class="col-6 text-center">
-        <ul>
-          <p>Menu</p>
-          <li><a href="index.html" class="text-dark">Inicio</a></li>
-          <li><a href="servicios.html" class="text-dark">Nuestros Servicios</a></li>
-          <li><a href="galeria.html" class="text-dark">Galeria</a></li>
-          <li><a href="contacto.html" class="text-dark">Contacto</a></li>
-        </ul>
-    </div>
-    <div class="col-6 text-center">
-        <ul>
-          <p>Redes Sociales</p>
-          <li><a href="https://www.instagram.com" class="text-dark"><i class="flaticon-instagram"></i></a></li>
-          <li><a href="https://www.youtube.com" class="text-dark"><i class="flaticon-youtube"></i></a></li>
-        </ul>
-    </div>
-  </div>
+  <p class="footer-bottom-text">Todos los derechos reservados por&copy;Marcelo Rodriguez</p>
+</footer>
 
   
-  <p class="text-center">Todos los derechos reservados 2021</p>
-</footer>
 
 <!-- Bootstrap JS-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

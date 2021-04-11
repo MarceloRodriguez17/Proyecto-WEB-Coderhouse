@@ -17,7 +17,7 @@ ul {
 /*Navbar & Language options*/
 .navbar .nav-item .nav-link {
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .btn-link {
@@ -27,22 +27,15 @@ ul {
     text-decoration: none !important    
 }
 
-  button:focus {
-    outline: none !important
-  }
-
-
-  /*Images size gallery*/
+  /*Images size Carousel*/
 .imgsize {
-    width: 300px;
-    height: 300px;
+    width: 10%;
+    height: 780px;
 }
 
-.imgsize2 {
-    width: 300px;
-    height: 300px;
+.logo {
+    width: 150px;
 }
-
 
 h1 {
     font-size: 24px;
@@ -54,21 +47,278 @@ h2 {
 /*Pages Sections*/
 
 
-.servicios {
-    margin-top: 60px;
+/*galeria*/
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 15px;
 }
 
-.galeria {
-    margin-top: 60px;
+#galeria img {
+    width: 100%;
+    height: 250px;
 }
 
-footer {
-    margin-top: 60px;
-    
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
+/*-------------------------------------------SERVICES SECTION-------------------------------------------*/
+
+a:hover {
+    text-decoration: none;}
+
+
+a{
+color: #333;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.section-header p {
+    font-size: 18px;
+}
+
+.single-service {
+    border: 1px solid #ebebeb;
+    text-align: center;
+    background: #fff;
+}
+
+.service-bg {
+    height: 200px;
+    position: relative;
+}
+
+.service-bg-1 {
+    background: url(img/imgservices01.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-2 {
+    background: url(img/imgservices02.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-3 {
+    background: url(img/imgservices03.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg h2 {
+    color: #fff;
+    background: tomato;
+    border: 1px solid tomato;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -25px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+
+.single-service:hover .service-bg h2 {
+    background: #fff;
+    transition: .9s;
+    color: tomato;
+}
+
+.service-text{
+    padding: 50px 30px 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.service-text p:last-child {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.btn-area {
+    display: inline-block;
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: capitalize;
 }
 
 
-.background {
-    background: url(img/background.jpg);
-    background-size: 100vw 100vh;
+/*Responsive CSS*/
+
+@media only screen and (max-width: 767px) {
+    .single-service {
+        margin-top: 30px;
+    }
+    .service-bg h2 {
+        font-size: 13px;
+    }
 }
+
+/*-------------------------------------------SERVICES SECTION-------------------------------------------*/
+
+
+
+/*-------------------------------------------FOOTER-------------------------------------------*/
+
+footer p {
+    color: #999;
+    line-height: 25px;
+}
+
+footer h2, h3 {
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 80px 0;
+}
+
+/*El Luthier Text*/
+
+.segment-one h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-one h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+/*Footer Social Media*/
+
+
+.segment-two h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-two h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+.segment-two a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-two a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+/*Footer Menu*/
+
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.segment-three h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.segment-three ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-three ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+
+/*Newsletter*/
+
+.segment-four h2 {
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.segment-four h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-four form input [type=submit] {
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*Footer Bottom*/
+
+.footer-bottom-text {
+    text-align: center;
+    background: #000;
+    line-height: 50px;
+}
+
+
+/*Responsive CSS*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+/*-------------------------------------------FOOTER-------------------------------------------*/
