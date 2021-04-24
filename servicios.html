@@ -15,10 +15,9 @@
     <meta property="og:site_name" content="KBL Guitars">
 
     <title>KBL Guitars</title>
-    <!--BOOTSTRAP CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--BOOTSTRAP CSS--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"><!--CUSTOM CSS-->
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/52faf26b51.js" crossorigin="anonymous"></script>
 
@@ -26,23 +25,14 @@
 
 
 <body>
-<!--Header, lang options & navbar-->
+<!--Header y navbar-->
     <header>
-        <section id="#inicio">
-          <div class="dropdown d-flex justify-content-end container">
-            <button class="btn btn-link dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              LANG
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">SPA</a>
-              <a class="dropdown-item" href="#">ENG</a>
-            </div>
-          </div>
-    
+        <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-                <a class="navbar-brand" href="/"></a>
-                    <img src="img/logoweb.png" alt="Logo Web" class="logo">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logoweb.png" alt="Logo Web" class="logo">
+                </a>    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -61,7 +51,8 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
                   </ul>
-                </div></div>
+                </div>
+              </div>
           </nav>
         </section>
     </header>    
@@ -70,11 +61,12 @@
 
 <main>
   <div class="container">
+
     <div class="row">
         <div class="col-md-12">
             <div class="section-header">
                 <h2>Nuestros servicios</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis.</p>
+                <p>Nos dedicamos a la fabricación de guitarras con las mejores maderas selecionadas, reparación de daños estructurales y mantenimiento</p>
             </div>
         </div>
     </div>
@@ -82,44 +74,96 @@
         <div class="col-md-4">
             <div class="single-service">
                 <div class="service-bg service-bg-1">
-                    <h2>Service 01</h2>
+                    <h2>Fabricacion de guitarras</h2>
                 </div>
                 <div class="service-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab deleniti minima eos incidunt dignissimos harum dolorum aliquid quis ad, eum, nostrum molestias! Quibusdam, molestias.</p>
-                    <a href="" class="btn-area">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    <p>La construcción de una guitarra tiene una duración variable en función del modelo y de la climatología. En primer lugar es muy importante la selección de la madera que se utilizará para la construcción de...</p>
+                    <a href="#" class="btn-area" data-toggle="modal" data-target="#ModalService1">Leer más <i class="fa fa-long-arrow-right"></i></a>
+                    
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="single-service">
                 <div class="service-bg service-bg-2">
-                    <h2>Service 02</h2>
+                    <h2>Reparación y restauración</h2>
                 </div>
                 <div class="service-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab deleniti minima eos incidunt dignissimos harum dolorum aliquid quis ad, eum, nostrum molestias! Quibusdam, molestias.</p>
-                    <a href="" class="btn-area">Read More <i class="fa fa-long-arrow-right"></i></a>
+                    <p>El instrumento debe ser revisado periódicamente, mantenerse en buen estado para evitar posibles grietas o cualquier problema que, a la larga, pueda complicarse y causar daños irreversibles.
+                    </p>
+                    <a href="#" class="btn-area" data-toggle="modal" data-target="#ModalService2">Leer más <i class="fa fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="single-service">
                 <div class="service-bg service-bg-3">
-                    <h2>Service 03</h2>
+                    <h2>Mantenimiento</h2>
                 </div>
                 <div class="service-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab deleniti minima eos incidunt dignissimos harum dolorum aliquid quis ad, eum, nostrum molestias! Quibusdam, molestias.</p>
-                    <a href="" class="btn-area">Read More <i class="fa fa-long-arrow-right"></i></a>
-                </div>
+                  <p>Usamos nuestra experiencia y conocimiento del instrumento para dar a tu guitarra el trabajo de calibración y mantención que merece, tratándola como si fuese nuestra.</p>
+                  <a href="#" class="btn-area" data-toggle="modal" data-target="#ModalService3">Leer más <i class="fa fa-long-arrow-right"></i></a>
+              </div>
         </div>
-  </div>
 
-  <h2>Lorem, ipsum dolor.</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, placeat. Ipsum obcaecati dolorem sunt provident aperiam quae est ducimus molestiae recusandae, ea nemo enim saepe. Dolore odio voluptas molestiae! Eaque quasi saepe recusandae voluptatum similique corrupti alias praesentium illum reprehenderit laborum. Quae, placeat maxime voluptas adipisci iusto, beatae et dicta veniam nostrum fugit ut natus! Corrupti, maxime ipsum beatae fugit eos numquam pariatur exercitationem eaque mollitia eveniet nisi doloribus? Iste voluptas qui consectetur quod molestiae aspernatur facere cumque delectus, officia incidunt. Architecto quod vero officia earum dolorem iste dignissimos cupiditate soluta ab quibusdam, fugiat delectus iusto laudantium ex impedit. Dolores!</p>
+
+    <!--Modal Popup 1 Start-->
+    <div class="modal fade" id="ModalService1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0 d-block">
+            <h3 class="modal-title text-center">Fabricación de guitarras</h3>
+            <button class="btn btn-dark btn-circle btn-sm" type="button" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>La construcción de una guitarra tiene una duración variable en función del modelo y de la climatología. En primer lugar es muy importante la selección de la madera que se utilizará para la construcción de la guitarra, partiendo de maderas de la más alta calidad y procedentes de diversos lugares del mundo se obtienen las diferentes partes que formarán la guitarra. A partir de la madera seleccionada por el artesano y que prepara con procesos de secado durante largo tiempo, se fabrican cada uno de los componentes de la guitarra.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Popup 1 End-->
+
+    <!--Modal Popup 2 Start-->
+    <div class="modal fade" id="ModalService2">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0 d-block">
+            <h3 class="modal-title text-center">Reparación y restauración</h3>
+            <button class="btn btn-dark btn-circle btn-sm" type="button" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>Realizamos todo tipo de ajustes y reparaciones en instrumentos de arco y pulsado, desde las reparaciones más sencillas, a revisiones periódicas, limpiezas, barnizados y lacados, cambio de puente y clavijas, cepillado del diapasón, cambio del alma, subsanación de grietas y roturas, y cualquier mejora o modificación sugerida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Popup 2 End-->
+
+    <!--Modal Popup 3 Start-->
+    <div class="modal fade" id="ModalService3">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0 d-block">
+            <h3 class="modal-title text-center">Mantenimiento y calibración</h3>
+            <button class="btn btn-dark btn-circle btn-sm" type="button" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>Usamos nuestra experticia y conocimiento del instrumento para dar a tu guitarra el trabajo de calibración y mantención que merece, tratándola como si fuese nuestra.</p>
+            <p>Qué es calibrar una guitarra? Sencillamente se trata de un conjunto de ajustes que se le hace al brazo, puente y otros componentes de la guitarra para que quede lo más cómoda de tocar para su dueño, con la altura de cuerdas (acción) adecuada y el menor ruido de trasteo posible.</p>
+            <p>Ajuste de la acción de las cuerdas mediante la manipulación del brazo y el puente del instrumento, dejándolo más cómodo y fácil de tocar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Popup 3 End-->
+
+    
+  </div>
 
 </main>
 
 
-<!--Footer-->
+<!--Footer Start-->
 
 <footer>
   <div class="footer-top">
@@ -127,14 +171,14 @@
           <div class="row">
               <div class="col-md-3 col-sm-6 col-xs-12 md-mb-30 sm-mb-30 segment-one">
                   <h2>El Luthier</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, culpa.</p>
+                  <p>El nombre luthier se relaciona con los primeros luthiers, y proviene de la palabra francesa luth, a su vez procedente del árabe العود al-ʿūd ('laúd').</p>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 md-mb-30 sm-mb-30 segment-two">
                   <h2>Redes Sociales</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, culpa.</p>
-                  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
-                  <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                  <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
               </div>
               <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-30 segment-three">
                   <h2>Menu</h2>
@@ -157,9 +201,17 @@
   </div>
   <p class="footer-bottom-text">Todos los derechos reservados por&copy;Marcelo Rodriguez</p>
 </footer>
+
+<!--Footer End-->
+
+
+
+
+
+
+
 <!-- Bootstrap JS-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
 </body>
 </html>

@@ -1,0 +1,324 @@
+/*--------------------------------------------------------------------------------GENERAL------------------------------------------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+/*Navbar*/
+.navbar .nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+}
+
+/*Images size Carousel*/
+.imgsize {
+  object-fit: cover;
+  height: 80vh;
+}
+
+/*Image size Logo*/
+.logo {
+  width: 150px;
+}
+
+/*--------------------------------------------------------------------------------GENERAL------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------GALLERY SECTION------------------------------------------------------------------------------------------------------*/
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 15px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+.item {
+  transition: 0.5s ease-in-out;
+}
+
+.item:hover {
+  filter: brightness(80%);
+}
+
+/*--------------------------------------------------------------------------------GALLERY SECTION------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------SERVICES SECTION-----------------------------------------------------------------------------------------------------*/
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #333;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.section-header p {
+  font-size: 18px;
+}
+
+.single-service {
+  border: 1px solid #ebebeb;
+  text-align: center;
+  background: #fff;
+}
+
+.service-bg {
+  height: 200px;
+  position: relative;
+}
+
+.service-bg-1 {
+  background: url(./../img/imgservices01.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-bg-2 {
+  background: url(./../img/imgservices02.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-bg-3 {
+  background: url(./../img/imgservices03.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-bg h2 {
+  color: #fff;
+  background: tomato;
+  border: 1px solid tomato;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+  padding: 15px;
+  position: absolute;
+  left: 8%;
+  width: 84%;
+  margin: 0;
+  bottom: -25px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+}
+
+.service-text {
+  padding: 50px 30px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.service-text p:last-child {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.btn-area {
+  display: inline-block;
+  color: #333;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+/*---------------------Modal----------------*/
+.modal-title {
+  color: black;
+  font-size: 20px;
+}
+
+/*-----------CLOSE BUTTON------------*/
+.modal-header {
+  position: relative;
+}
+
+.btn-circle {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  border-radius: 15px;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+}
+
+/*--------------------------------------------------------------------------------SERVICES SECTION-----------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------FOOTER SECTION------------------------------------------------------------------------------------------------------*/
+footer p {
+  color: #999;
+  line-height: 25px;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+.footer-top {
+  background: #111;
+  padding: 80px 0;
+}
+
+/*El Luthier Text*/
+.segment-one h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-one h2::before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+/*Footer Social Media*/
+.segment-two h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-two h2:before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+}
+
+.segment-two a {
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.segment-two a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+/*Footer Menu*/
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-three h2::before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-three ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-three ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.segment-three ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+/*Newsletter*/
+.segment-four h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four h2::before {
+  content: "|";
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-four form input [type=submit] {
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*Footer Bottom*/
+.footer-bottom-text {
+  text-align: center;
+  background: #000;
+  line-height: 50px;
+}
+
+/*Responsive CSS*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sm-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .footer-top {
+    padding: 50px 0;
+  }
+}
+/*--------------------------------------------------------------------------------FOOTER SECTION------------------------------------------------------------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
