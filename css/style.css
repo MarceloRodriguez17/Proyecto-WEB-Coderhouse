@@ -302,6 +302,7 @@ footer h2 {
   text-align: center;
   background: #000;
   line-height: 50px;
+  margin-bottom: 0;
 }
 
 /*Responsive CSS*/
