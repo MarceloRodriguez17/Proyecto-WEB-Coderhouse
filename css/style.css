@@ -74,21 +74,12 @@ main {
 
 /*--------------------------------------------------------------------------------GALLERY SECTION------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------SERVICES SECTION-----------------------------------------------------------------------------------------------------*/
-a:hover {
-  text-decoration: none;
-}
-
-a {
-  color: #333;
-}
-
 .section-header {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 15px;
 }
-
-.section-header p {
+.section-header .section-header p {
   font-size: 18px;
 }
 
@@ -103,25 +94,22 @@ a {
   position: relative;
 }
 
-.service-bg-1 {
-  background: url(./../img/imgservices01.jpg);
+.service-bg-3, .service-bg-2, .service-bg-1 {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
+}
+
+.service-bg-1 {
+  background: url(./../img/imgservices01.jpg);
 }
 
 .service-bg-2 {
   background: url(./../img/imgservices02.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
 }
 
 .service-bg-3 {
   background: url(./../img/imgservices03.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
 }
 
 .service-bg h2 {
@@ -195,45 +183,30 @@ footer p {
   line-height: 25px;
 }
 
-footer h2 {
-  font-size: 20px;
-}
-
 .footer-top {
   background: #111;
   padding: 80px 0;
 }
 
-/*El Luthier Text*/
-.segment-one h2 {
+.segment-four h2, .segment-three h2, .segment-two h2, .segment-one h2 {
   color: #fff;
   text-transform: uppercase;
 }
 
-.segment-one h2::before {
+.segment-four h2:before, .segment-three h2:before, .segment-two h2:before, .segment-one h2:before {
   content: "|";
   color: #c65039;
   padding-right: 10px;
 }
 
-/*Footer Social Media*/
-.segment-two h2 {
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.segment-two h2:before {
-  content: "|";
-  color: #c65039;
-  padding-right: 10px;
-}
-
-.segment-two ul {
+.segment-three ul, .segment-two ul {
   margin: 0;
   padding: 0%;
   list-style: none;
 }
 
+/*El Luthier Text*/
+/*Footer Social Media*/
 .segment-two a {
   background: #494848;
   width: 40px;
@@ -249,23 +222,6 @@ footer h2 {
 }
 
 /*Footer Menu*/
-.segment-three h2 {
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.segment-three h2::before {
-  content: "|";
-  color: #c65039;
-  padding-right: 10px;
-}
-
-.segment-three ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .segment-three ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   line-height: 40px;
@@ -277,17 +233,6 @@ footer h2 {
 }
 
 /*Newsletter*/
-.segment-four h2 {
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.segment-four h2::before {
-  content: "|";
-  color: #c65039;
-  padding-right: 10px;
-}
-
 .segment-four form input [type=submit] {
   background: #c65039;
   border: none;
